@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "991966748040",
+    "firebase_url": "https://timetable-5b681.firebaseio.com",
+    "project_id": "timetable-5b681",
+    "storage_bucket": "timetable-5b681.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991966748040:android:f07f88e7c1aa490e51ee3d",
+        "android_client_info": {
+          "package_name": "aplication.codewithdeev.timetable"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "991966748040-81gru63p417r89ek8eubdfcj7ls8poo3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "aplication.codewithdeev.timetable",
+            "certificate_hash": "f807d448818e3956cbe16145b6f33a997c75ee67"
+          }
+        },
+        {
+          "client_id": "991966748040-jgmm5p8v7fco51u1vq37116hsdrrt0ui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgRxhjpQKGzWvIsn8PB7JmBKXR6JhJhoM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "991966748040-jgmm5p8v7fco51u1vq37116hsdrrt0ui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

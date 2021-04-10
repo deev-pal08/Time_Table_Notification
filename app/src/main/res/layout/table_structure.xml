@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="220dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="7dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintVertical_weight="1"
+        app:cardPreventCornerOverlap="true"
+        app:contentPadding="10dp"
+        app:cardElevation="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="@color/colourSkyBlue">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/recyclerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:background="@color/colourGreenBlue"
+            >
+
+            <TextView
+                android:id="@+id/subName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="52dp"
+                android:fontFamily="casual"
+                android:gravity="center_horizontal"
+                android:shadowColor="#000000"
+                android:shadowDx="3"
+                android:shadowDy="5"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/subTeacher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="124dp"
+                android:fontFamily="casual"
+                android:gravity="center_horizontal"
+                android:shadowColor="#000000"
+                android:shadowDx="3"
+                android:shadowDy="5"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/subCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="TextView"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:shadowColor="#000000"
+                android:shadowDx="3"
+                android:shadowDy="5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/subTiming"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="TextView"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:shadowColor="#000000"
+                android:shadowDx="3"
+                android:shadowDy="5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

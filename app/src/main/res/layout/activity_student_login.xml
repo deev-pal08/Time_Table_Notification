@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image_background"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/loginPage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif-monospace"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="STUDENTS LOGIN"
+        android:textAlignment="center"
+        android:textColor="@color/colourLightestGrey"
+        android:textSize="40dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:shadowColor="#000000"
+        android:shadowDx="3"
+        android:shadowDy="5"
+        android:shadowRadius="10"/>
+
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/ic_image_user1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/teachers_login_shape"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:startIconDrawable="@drawable/ic_teachers_username"
+        app:startIconTint="@color/colourDarkGrey">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/stuUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="USERNAME"
+            android:inputType="text"
+            android:textColor="@color/colourDarkGrey"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            app:hintTextColor="@color/colourDarkGrey" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/teachers_login_shape"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:startIconDrawable="@drawable/ic_courses"
+        app:startIconTint="@color/colourDarkGrey">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/course"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="STREAM"
+            android:inputType="text"
+            android:textColor="@color/colourDarkGrey"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            app:hintTextColor="@color/colourDarkGrey" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/teachers_login_shape"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:startIconDrawable="@drawable/ic_sections"
+        app:startIconTint="@color/colourDarkGrey">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="SECTION"
+            android:inputType="text"
+            android:textColor="@color/colourDarkGrey"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            app:hintTextColor="@color/colourDarkGrey" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/button_background"
+        android:fontFamily="casual"
+        android:padding="15dp"
+        android:text="SUBMIT"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

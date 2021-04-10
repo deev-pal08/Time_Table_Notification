@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image_background"
+    tools:context=".BBAFirstSemesterSubject">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="serif-monospace"
+        android:gravity="center_horizontal"
+        android:text="CHOOSE SEMESTER"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:fontFamily="serif-monospace"
+        android:gravity="center_horizontal"
+        android:text="CHOOSE SECTION"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/rGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="80dp"
+        >
+
+
+        <RadioButton
+            android:id="@+id/sectionA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:padding="10dp"
+            android:text="SECTION A"
+            android:textColor="@color/colourDarkGrey"
+            android:textSize="25dp"
+            android:textStyle="bold"
+           />
+
+        <RadioButton
+            android:id="@+id/sectionB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:padding="10dp"
+            android:text="SECTION B"
+            android:textColor="@color/colourDarkGrey"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            />
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/spinnerSemester"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/teachers_login_shape"
+        android:padding="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image_background"
+    tools:context=".ChooseOption">
+
+
+    <!--Heading-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif-monospace"
+        android:gravity="center_horizontal"
+        android:shadowColor="#000000"
+        android:shadowDx="3"
+        android:shadowDy="5"
+        android:shadowRadius="10"
+        android:text="CHOOSE SECTION"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="40dp"
+
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnA"
+        android:layout_width="134dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/letter_a"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnB"
+        android:layout_width="134dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/letter_b"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="409dp"
+        android:layout_height="5dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="80dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

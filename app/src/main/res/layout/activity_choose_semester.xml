@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_table_second"
+    tools:context=".BBAFirstSemesterSubject">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:fontFamily="serif-monospace"
+        android:gravity="center_horizontal"
+        android:text="CHOOSE SEMESTER"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="35dp"
+        android:shadowColor="#000000"
+        android:shadowDx="3"
+        android:shadowDy="5"
+        android:shadowRadius="10"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="424dp"
+        android:fontFamily="serif-monospace"
+        android:gravity="center_horizontal"
+        android:text="CHOOSE SECTION"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="35dp"
+        android:shadowColor="#FFF"
+        android:shadowDx="3"
+        android:shadowDy="5"
+        android:shadowRadius="10"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnA"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/letter_a"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnB"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/letter_b"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="70dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerSemester"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="236dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/teachers_login_shape"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
